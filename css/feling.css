@@ -5126,6 +5126,8 @@ a.uk-thumbnail:focus {
 }
 .uk-modal-footer {
   margin-top: 15px;
+  width: 100%;
+  background: #ffaad7;
 }
 .uk-modal-header > :last-child,
 .uk-modal-footer > :last-child {
