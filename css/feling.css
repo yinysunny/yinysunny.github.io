@@ -207,12 +207,12 @@ pre {
   overflow: auto;
 }
 ::-moz-selection {
-  background: #3399ff;
+  background: #FFAAD7;
   color: #ffffff;
   text-shadow: none;
 }
 ::selection {
-  background: #3399ff;
+  background: #FFAAD7;
   color: #ffffff;
   text-shadow: none;
 }
