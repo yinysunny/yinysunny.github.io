@@ -14,7 +14,7 @@ $(function() {
   $.fn.toc = function(options) {
     var defaults = {
       noBackToTopLinks: false,
-      title: '<h2 class="uk-panel-title">本文目录</h2>',
+      title: '<h2 class="uk-panel-title">本文目录</h2><hr />',
       minimumHeaders: 1,
       headers: 'h3, h4',
       listType: 'ul', // values: [ol|ul]
