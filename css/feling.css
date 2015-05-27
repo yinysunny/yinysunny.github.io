@@ -7213,7 +7213,7 @@ div.go-top {
     position: fixed;
     bottom: 100px;
     right: 5%;
-    border: 1px solid #3399ff;
+    border: 1px solid #ffaad7;
     width: 38px;
     height: 38px;
     background-color: #ffffff;
@@ -7233,7 +7233,7 @@ div.go-top div.arrow {
     width: 0;
     height: 0;
     border: 9px solid transparent;
-    border-bottom-color: #3399ff;
+    border-bottom-color: #ffaad7;
 }
 
 div.go-top div.stick {
@@ -7243,7 +7243,7 @@ div.go-top div.stick {
     width: 8px;
     height: 14px;
     display: block;
-    background-color: #3399ff;
+    background-color: #ffaad7;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
