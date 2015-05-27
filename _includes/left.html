@@ -1,0 +1,14 @@
+<div class="uk-panel uk-panel-box" style="word-wrap:break-word; display: none;"> 
+    <h2 class="uk-panel-title">最新文章</h2>
+    <ul>
+    {% for post in site.posts limit:5 %}
+    {% if post.title != page.title %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+<br/>
+</div>
+<div class="uk-panel uk-panel-box" style="word-wrap:break-word; "> 
+    <div id="toc"></div>
+</div>
